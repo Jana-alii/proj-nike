@@ -1,0 +1,326 @@
+.homewallpaper
+{
+    background-image: url(images/nike\ shoese.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-brand{
+    font-size: xx-large;
+    color: aliceblue;
+    font-style: normal;
+}
+#cover{
+    color: aliceblue;
+}
+.navbar .navbar-brand{
+    color:white;
+    font-size:1.5rem;
+    letter-spacing:1px;
+    font-weight:500;
+    text-transform:uppercase;
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color:#33d1cc;
+}
+
+.navbar .navbar-toggler{
+    color:white;
+    font-size:26px;
+    border-color: white;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow:none ;
+}
+
+
+
+
+.container .profile{
+    width:50px;
+    height:50px;
+  
+}
+.container .profile img{
+    width:100%;
+    height:100%;
+    
+}
+.video-container video{width: 700px;
+    border:black 0.5px solid;
+}
+/*links profile/
+.container .profile-links {
+    position: relative;
+    z-index:4;
+}
+
+.container .profile-links::before{
+    content:'';
+    position:absolute;
+    width:100px;
+    height:20px;
+    left:-30px;
+    bottom:-20px;
+
+}
+ 
+.container .profile-links #cover ul{
+    position:absolute;
+    top:30px;
+    width:100%;
+    list-style-type:none;
+    display:flex;
+    flex-direction:column;
+    background-color:rgba(255,255,255);
+    border:1px solid black;
+    
+}
+   
+.container .profile-links #cover .ul li {
+    position:relative;
+    left:-20px;
+    border-bottom:1px solid black;
+    width:100%;
+    
+}
+.container .profile-links #cover .ul li a{
+    text-decoration:none;
+    display:block;
+    width:100%;
+    height:100%;
+    padding:10px;
+    transition:.5s;
+    color:black;
+}
+.container .profile-links #cover .ul li a:hover{
+    border-radius:0;
+    background:rgba(255,255,255,0);
+    padding-bottom:15px;
+    padding-left:15px;
+    color:#808080;
+}
+
+.container .profile-links #cover ul .list-last{
+ border:none;
+}
+
+
+
+/* Slick */
+.slick-carousel {
+    max-width: 70%;
+    margin: 0 auto; 
+    padding: 20px 0; 
+}
+
+.slick-slide {
+    text-align: center; 
+    padding: 10px; 
+}
+
+.slick-slide img {
+    width: 100%; 
+    height: 90%; 
+}
+
+.slick-slide p {
+    font-size: 18px; 
+    color: #333; 
+    margin-top: 10px; 
+    font-family: Arial, sans-serif; 
+}
+
+/* Slick dots  */
+.slick-dots {
+    bottom: -30px; 
+}
+
+.slick-dots li button:before {
+    font-size: 12px; 
+    color: #888; 
+}
+
+.slick-dots li.slick-active button:before {
+    color: #333; 
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;  
+    line-height: 0; 
+    position: absolute; 
+    top: 50%; 
+    width: 30px; 
+    height: 30px; 
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%); 
+    cursor: pointer; 
+    z-index: 1; 
+}
+
+.slick-prev {
+    left: -40px; 
+}
+
+.slick-next {
+    right: -40px; 
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick'; 
+    font-size: 20px; 
+    color: white; 
+}
+
+.slick-prev:before {
+    content: '←'; 
+}
+
+.slick-next:before {
+    content: '→'; 
+}
+
+.slick-prev:hover, .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+
+/*  footer  */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px 10px;
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.footer p {
+    font-size: 0.875rem;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer ul li a:hover {
+    color: #fff;
+}
+
+.footer .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.footer .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #00408a;
+}
+
+.footer .form-control {
+    border-radius: 0;
+    border-color: #ddd;
+}
+
+.footer .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.footer .fa {
+    font-size: 1.5rem;
+}
+
+.footer .text-center a {
+    font-size: 1.25rem;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer .text-center a:hover {
+    color: #007bff;
+}
+
+
+#btns button{
+    background: transparent;
+    cursor: pointer;
+    transition:0.5s ease ;
+}
+#btns button:hover{
+    background:white;
+    
+}
+ 
+.card{
+    transition:0.5s ease ;
+        cursor: pointer;
+        height: 520px;
+
+    }
+    
+    .card:hover{
+        transform: translateY(-10px);
+    }
+
+    .heading {
+        color: plum;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+.heading span{
+    color: paleturquoise;
+}
+.btn2{
+cursor: pointer;
+transition: 0.5s ease;
+color: black;
+margin: 10px;
+padding: 10px;
+}
+.btn2:hover{
+    background: whitesmoke;
+}
+    
+
+   .testimonial-carousel img{
+    width: 600px;
+   }
+.testimonial-carousel .ss img{
+    width: 500px;
+}
+@media (min-width:992px) {
+    .container .profile-links #cover {
+        position:absolute;
+        width:150px;
+        height:150px;
+        left:-80px;
+        top:40px;
+        display:none;
+        z-index:4;
+        transition:0.4s
+    }
+    
+}
